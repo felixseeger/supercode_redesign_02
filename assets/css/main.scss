@@ -2,7 +2,8 @@
 
 body {
 	margin: 0;
-	background: #0d0131;
+	background: url(../img/dotGrid-03_blue.png);
+	background-size: cover;
 }
 
 header {
@@ -38,8 +39,9 @@ ul {
 .social,
 .pagination {
 	position: absolute;
-	background: #0d0131;
+	background: white;
 }
+
 .social {
 	display: none;
 }
@@ -152,7 +154,7 @@ ul.pagination {
 
 .block {
 	position: absolute;
-	background: #1e22aa;
+	background: #3dd7ac;
 	width: 2em;
 	height: 2em;
 }
