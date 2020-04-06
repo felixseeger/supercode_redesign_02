@@ -2,7 +2,7 @@
 
 body {
 	margin: 0;
-	background: url(../img/dotGrid-03_blue.png);
+	background: url(../img/dotGrid-05_blue_4k.jpg);
 	background-size: cover;
 }
 
@@ -15,7 +15,7 @@ header {
 
 h1,
 .logo {
-	font-family: 'Fira Sans', serif;
+	font-family: 'Fira Sans', sans-serif;
 	font-weight: normal;
 	color: white;
 }
@@ -27,7 +27,7 @@ h1,
 }
 p,
 a {
-	font-family: 'Fira Sans';
+	font-family: 'Fira Sans', sans-serif;
 }
 ul {
 	list-style: none;
@@ -37,9 +37,11 @@ ul {
 }
 .main-bg,
 .social,
-.pagination {
+.pagination,
+.phone {
 	position: absolute;
-	background: white;
+
+	font-family: "fira sans";
 }
 
 .social {
@@ -94,6 +96,16 @@ h1 {
 	}
 }
 
+.phone {
+	top: 17%;
+	left: -1.8%;
+	color: #3dd7ac;
+	transform: rotate(-90deg);
+	padding: 5px;
+	font-size: .75em;
+	line-height: 0.8em;
+}
+
 footer {
 	width: 85%;
 	background: #1e22aa;
@@ -109,7 +121,7 @@ footer {
 }
 
 .cta {
-	color: white;
+	color: #3dd7ac;
 	text-decoration: none;
 	align-self: center;
 	position: relative;
@@ -123,6 +135,25 @@ footer {
 		height: 3em;
 		left: -1em;
 		top: -1em;
+		border: 1px solid white;
+	}
+}
+
+.cta-smal {
+	color: #3dd7ac;
+	text-decoration: none;
+	align-self: center;
+	position: relative;
+	margin: 0.5em auto;
+	white-space: nowrap;
+
+	&:before {
+		content: '';
+		position: absolute;
+		width: 83%;
+		height: 1.5em;
+		left: -.5em;
+		top: -0.5em;
 		border: 1px solid white;
 	}
 }
