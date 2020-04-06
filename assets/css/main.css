@@ -12,15 +12,19 @@ header {
   color: white;
 }
 
+nav img {
+  height: 40px;
+}
+
 h1,
 .logo {
   font-family: 'Fira Sans', sans-serif;
-  font-weight: normal;
+  font-weight: 300;
   color: white;
 }
 
 .logo {
-  font-weight: bold;
+  font-weight: 500;
   text-decoration: none;
   color: white;
   font-size: 1.2em;
@@ -102,7 +106,7 @@ h1 {
 .phone {
   top: 17%;
   left: -1.8%;
-  color: #3dd7ac;
+  color: fuchsia;
   transform: rotate(-90deg);
   padding: 5px;
   font-size: .75em;
@@ -111,7 +115,7 @@ h1 {
 
 footer {
   width: 85%;
-  background: #1e22aa;
+  background: rgba(30, 34, 170, 0.8);
   display: flex;
   position: relative;
 }
@@ -121,6 +125,10 @@ footer {
   height: 8em;
   background: url("../img/hero2.jpg");
   background-size: cover;
+}
+
+.kurse #duotone {
+  background: url("../img/hero2.jpg");
 }
 
 .cta {
@@ -163,7 +171,7 @@ footer {
 
 ul.pagination {
   z-index: 1;
-  background: #3dd7ac;
+  background: white;
   right: 0;
   top: 30%;
 }
@@ -227,6 +235,7 @@ ul.pagination .active:before {
     text-align: center;
     color: white;
     background-color: #00c7b1;
+    opacity: 0.8;
   }
   .social li {
     margin-bottom: 2em;
@@ -243,6 +252,30 @@ ul.pagination .active:before {
   .main-content p:before {
     width: 25%;
   }
+}
+
+#duotone::before {
+  background-color: #00c7b1;
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: darken;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#duotone::after {
+  background-color: #192550;
+  content: '';
+  display: block;
+  width: 100%;
+  height: 100%;
+  mix-blend-mode: lighten;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 @media (min-width: 900px) {
