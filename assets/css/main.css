@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Montserrat&display=swap");
 body {
   margin: 0;
-  background: url(../img/dotGrid-multi_01_c_blur_blue_2k.jpg);
+  background: url(../img/header01_notxt.png);
   background-size: cover;
 }
 
@@ -68,7 +68,7 @@ header ul {
 }
 
 .main-bg {
-  background: url("../img/hero.jpg");
+  background: url("../img//header03Notxt.png");
   background-position: 40% 0;
   background-size: cover;
   width: 40%;
