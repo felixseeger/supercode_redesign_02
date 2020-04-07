@@ -105,13 +105,13 @@ h1 {
 }
 
 .phone {
-  top: 17%;
+  top: 18%;
   left: -1.8%;
   color: fuchsia;
   transform: rotate(-90deg);
   padding: 0;
   margin: 0;
-  font-size: .75em;
+  font-size: .65em;
   line-height: 0.8em;
 }
 
