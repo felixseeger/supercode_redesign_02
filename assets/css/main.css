@@ -79,6 +79,7 @@ header ul {
 
 .main-content {
   padding: 9em 4em 9em 3em;
+  transition: 0.5s;
 }
 
 h1 {

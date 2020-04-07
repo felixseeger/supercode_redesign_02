@@ -73,10 +73,12 @@ header {
 	height: 900px;
 	z-index: -1;
 	right: 0;
+
 }
 
 .main-content {
 	padding: 9em 4em 9em 3em;
+	transition: 0.5s;
 }
 
 h1 {
